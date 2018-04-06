@@ -1,11 +1,11 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "webapp"
+    "name": "src"
   },
   "apps": [
     {
-      "root": "webapp",
+      "root": "src",
       "outDir": "dist",
       "assets": [
         "assets",
@@ -22,10 +22,10 @@
         "styles.css"
       ],
       "scripts": [],
-      "environmentSource": "webapp/environments/environment.ts",
+      "environmentSource": "src/environments/environment.ts",
       "environments": {
-        "dev": "webapp/environments/environment.ts",
-        "prod": "webapp/environments/environment.prod.ts"
+        "dev": "src/environments/environment.ts",
+        "prod": "src/environments/environment.prod.ts"
       }
     }
   ],
@@ -36,11 +36,11 @@
   },
   "lint": [
     {
-      "project": "webapp/tsconfig.app.json",
+      "project": "src/tsconfig.app.json",
       "exclude": "**/node_modules/**"
     },
     {
-      "project": "webapp/tsconfig.spec.json",
+      "project": "src/tsconfig.spec.json",
       "exclude": "**/node_modules/**"
     },
     {
