@@ -1,5 +1,9 @@
 # QnA Application
 
+Install angular cli if you see 'ng' command not found. 
+
+When you face any issue with 'npm start' or 'ng serve' because of old angular cli version, run'npm i' to fix
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
 ## start express server
