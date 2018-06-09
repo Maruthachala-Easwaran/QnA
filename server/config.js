@@ -1,5 +1,5 @@
 const config = {
-  PORT: 8080
+  PORT: 3000
 }
 
 module.exports = config;
